@@ -1,0 +1,116 @@
+::-moz-selection {
+  background-color: #9b59b6;
+  color: white;
+}
+
+::selection {
+  background-color: #9b59b6;
+  color: white;
+}
+
+footer a {
+  padding: 10px;
+}
+
+footer nav {
+  margin: 0 -10px;
+}
+
+#footerSiteMap a:not(:first-of-type) {
+  margin-left: 10px;
+}
+
+#legalFooter {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: flex-start;
+}
+#legalFooter a {
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.btn:not(.btn-link),
+.btn:not(.btn-link) {
+  font-family: "Helvetica", "Open Sans", sans-serif;
+  padding: 15px 30px;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:not(.btn-link):not(.btn-square) {
+  border-radius: 25px;
+}
+
+.bg-faded {
+  background-color: #ececec;
+}
+
+.btn-primary {
+  background-color: #9b59b6;
+}
+.btn-primary:hover {
+  background-color: #8e44ad;
+}
+
+.btn-secondary {
+  background-color: #7F8C8D;
+  color: white;
+}
+.btn-secondary:hover {
+  color: white;
+  background-color: #4e5656;
+}
+
+#panelNavigation > div {
+  height: 250px;
+  padding: 15px;
+  flex-basis: 100%;
+}
+#panelNavigation > div h3 {
+  font-size: 2.5em;
+  color: white;
+  font-weight: bold;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  background-color: rgba(155, 89, 182, 0.8);
+  align-items: center;
+  transition: all 0.4s ease-in-out;
+}
+#panelNavigation > div h3:hover {
+  background-color: rgba(155, 89, 182, 0.9);
+}
+#panelNavigation > div h3 span {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+#panelNavigation > div a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+#panelNavigation > div a:hover {
+  text-decoration: none;
+}
+#panelNavigation > div a:hover h3 {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #panelNavigation > div {
+    flex-basis: 50%;
+  }
+}

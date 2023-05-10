@@ -1,0 +1,29 @@
+ .lb{
+    border-left:2px solid #611dd1;
+  }
+  .gy{
+    border-left:2px solid #fa8127;
+    
+  }
+  .gg{
+    border-left:2px solid #F39C12;
+  }
+  .gr{
+    border-left:2px solid #00A65A;
+  }
+  .bg-black{
+    background-color: #000000 !important;
+  }
+  .sbg{
+     background-image: linear-gradient(to bottom, #060647, #05083d, #070832, #070727, #06061c) !important;
+  } 
+.small-box{
+    background-color:white;
+    color:#0d0d12bf;
+}
+.small-box h3{
+    font-weight:400 !important;
+}
+  button, input, a,  .small-box, .card{
+    border-radius:10 !important;
+  }
